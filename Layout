@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TCS Interactive</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+header {
+  background-color:teal;
+  font-family: Algerian;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  border-radius: 10px;
+}
+nav{
+  background-color: black;
+  color: #f2f2f2;
+  padding: 14px ;
+  text-align: center;
+}
+aside {
+  float: right;
+  width: 105px;
+  background: #00aaaa;
+  height: 280px;
+  padding: 10px;
+  border:1px solid black;
+}
+aside ul {
+  list-style-type: none;
+  padding: 10px;
+}
+article {
+  float: left;
+  padding: 10px;
+  width: 75%;
+  height: 280px;
+  font-family: Times New Roman;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Verdana;
+  font-size:30px;
+}
+</style>
+</head>
+
+<body>
+ <header>
+  <h2>TCS Interactive</h2>
+ </header>
+
+<nav>
+  <h3> Digital Interactive Operations </h3>
+</nav>
+
+<section>  
+ <aside>
+  <ul>
+<li><a href="#" style="text-decoration:none">Industries</a></li><br>
+<li><a href="#" style="text-decoration:none">Services</a></li><br>
+<li><a href="#" style="text-decoration:none">Products and Platforms</a></li><br>
+<li><a href="#" style="text-decoration:none">Discover TCS</a></li><br>
+ </ul>
+  </aside>
+  
+ <article>
+  <h1>TCS Solutions</h1>
+ <p>TCS Digital Interactive Operations (DIO) drives demand through effective campaigns and improves brand reach by achieving unified communication and maintaining brand consistency.</p>
+ </article>
+</section>
+
+<footer>
+  <p>What's your Challenge ?<br> Let's work together to solve it</p>
+</footer>
+</body>
+</html>
